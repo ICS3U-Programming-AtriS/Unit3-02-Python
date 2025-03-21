@@ -8,7 +8,7 @@ import constants
 
 def main():
     # Get the user's guess
-    user_num = int(input("Enter a number (1-9): "))
+    user_num = int(input("Enter a number (0-9): "))
 
     # Check if the user's guess is the same as the correct number
     if user_num == constants.CORRECT_NUM:
